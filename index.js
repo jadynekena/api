@@ -1,5 +1,5 @@
 //TO USE THIS API, PLEASE FOLLOW THE INSTRUCTIONS BELOW.
-//EXAMPLE : res = $.get('http://api.jadynekena.com/index.js?param=0'); final_res=eval(res.body.innerText);
+//EXAMPLE : eval(await $.get('https://api.jadynekena.com/index.js?param1=val1&parm2=val2'))
 
 results().toString()
 function results(){

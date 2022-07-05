@@ -1,4 +1,7 @@
-document.querySelector('html').innerText=results().toString()
+//TO USE THIS API, PLEASE FOLLOW THE INSTRUCTIONS BELOW.
+//EXAMPLE : res = $.get('http://api.jadynekena.com/index.js?param=0'); final_res=eval(res.body.innerText);
+
+return results().toString()
 function results(){
 	return '[]'
 }

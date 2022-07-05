@@ -3,5 +3,8 @@
 
 return results().toString()
 function results(){
-	return '[]'
+	url = localStorage['url']
+	localStorage.clear()
+
+	return url
 }
